@@ -1,6 +1,6 @@
 # Simulating a Data Diode with NixOS Containers
 
-This guide will walk you through creating a unidirectional data flow between two NixOS containers without external hardware. We'll use VirtualBox on your Windows machine to create this setup.
+This guide will walkthrough creating a unidirectional data flow between two NixOS containers without external hardware. Use VirtualBox on Windows machine to create this setup.
 
 ## Prerequisites
 
@@ -284,4 +284,4 @@ sudo systemctl enable systemd-nspawn@sender
 sudo systemctl enable systemd-nspawn@receiver
 ```
 
-This gives you a complete software-based data diode implementation using NixOS containers with strict unidirectional flow enforced at the network level.
+This gives a complete software-based data diode implementation using NixOS containers with strict unidirectional flow enforced at the network level.
